@@ -2,14 +2,11 @@
 
 A modern, responsive e-commerce platform for food ordering and delivery. **Foodie** connects customers with local restaurants, offering a seamless and enjoyable online ordering experience.
 
-![Foodie Website](https://via.placeholder.com/800x400?text=Foodie+Screenshot) <!-- Replace with actual screenshot -->
-
 ---
 
 ## 🚀 Live Demo
 
-👉 [**Visit Foodie**](https://your-foodie-website-link.com)  
-_(Replace with your deployed site link, e.g., Netlify or Vercel)_
+👉 [**Visit Foodie**](https://your-foodie-website-link.com)
 
 ---
 
@@ -75,7 +72,7 @@ http://localhost:3000
 
 ## 👨‍💻 Author
 
-**Your Name**
+**Volonte Rwicha**
 - GitHub: [@Will24300/volonte-rwicha](https://github.com/Will24300)
 - Portfolio: [my-portfolioo01.netlify.app/](https://github.com/Will24300/my-portfolio)
 
