@@ -4,6 +4,7 @@ import bg from "../assets/bg.png";
 import comment from "../assets/comment.png";
 import delivery from "../assets/delivery.png";
 import location from "../assets/location.png";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -39,9 +40,11 @@ function Navbar() {
                 <a href="#contact">Contact us</a>
               </li>
             </ul>
-            <button className="bg-transparent text-[#F03328] border-2 py-1.5 px-8 border-[#F03328] rounded-4xl cursor-pointer">
-              Login
-            </button>
+            <Link to="/register">
+              <button className="bg-transparent text-[#F03328] border-2 py-1.5 px-8 border-[#F03328] rounded-4xl cursor-pointer">
+                Login
+              </button>
+            </Link>
           </div>
         </div>
         <div className="flex justify-center items-center gap-10 px-10">

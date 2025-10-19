@@ -1,17 +1,16 @@
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import Menu from "./components/Menu";
-import Navbar from "./components/Navbar";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Register from "./pages/Register";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <About />
-      <Menu />
-      <Contact />
-      <Footer />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/register" element={<Register />} />
+        </Routes>
+      </Router>
     </>
   );
 }
