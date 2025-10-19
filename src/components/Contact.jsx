@@ -4,8 +4,8 @@ import chef from "../assets/chef.png";
 function Contact() {
   return (
     <>
-      <section className="w-[90%] mx-auto py-20">
-        <div className="flex justify-between items-center gap-25">
+      <section className="pt-20 ">
+        <div className="flex justify-between items-center gap-25 bg-amber-50 h-[100vh] px-20 ">
           <div className="w-2/4">
             <h1 className="font-semibold text-4xl pb-5">
               Customer <span className="text-[#F03328]">Feedback</span>
@@ -40,6 +40,27 @@ function Contact() {
               alt="chef"
               className="h-96 absolute top-[-80px] left-7"
             />
+          </div>
+        </div>
+        <div className="my-15 flex justify-between px-20">
+          <div>
+            <h1 className="font-semibold text-2xl pb-2">
+              Join Our <span className="text-[#F03328]">Newsletter</span>
+            </h1>
+            <p className="text-[#5C5C5C] text-sm">
+              Be the first to know about our latest updates, exclusive offers,
+              and more.
+            </p>
+          </div>
+          <div className="flex justify-center items-center gap-2">
+            <input
+              type="text"
+              placeholder="Enter your email address"
+              className="border border-gray-400 outline-none text-sm px-4 py-1.5 rounded-sm"
+            />
+            <button className="bg-[#F03328] text-white py-1.5 px-4 rounded-sm text-sm">
+              Subscribe
+            </button>
           </div>
         </div>
       </section>
